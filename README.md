@@ -35,9 +35,3 @@ Then, sprinkle to taste with your defaults, undoing my craziness, etc.  These fi
 If you see errors, but this is just Vim complaining about not having the plugins it wants installed.   Simply run:
 
     :PlugInstall
-
-## Who runs this?
-
-| [@spicycode](https://github.com/spicycode)  |
-|---|
-| ![@spicycode](https://avatars.githubusercontent.com/u/222?s=280) |
