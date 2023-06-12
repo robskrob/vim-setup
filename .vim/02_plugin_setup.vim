@@ -74,6 +74,9 @@ Plug 'miyase256/vim-ripgrep', {'branch': 'fix/remove-complete-from-RgRoot'}
 " AutoCompletion:
 Plug 'roxma/nvim-yarp'
 Plug '/opt/homebrew/opt/fzf' | Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
 
 " Linting:
 Plug 'w0rp/ale'
@@ -94,10 +97,6 @@ Plug 'tpope/vim-commentary'
 
 " Salesforce:
 Plug 'neowit/vim-force.com'
-
-" C++:
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'jiangmiao/auto-pairs'
 
 
 call plug#end()
