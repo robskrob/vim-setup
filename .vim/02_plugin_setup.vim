@@ -53,6 +53,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'Shougo/echodoc.vim' " Echo method signatures in the status bar
 Plug 'maximbaz/lightline-ale' " Show ALE status in lightline
 
+" Scrollbar:
+Plug 'obcat/vim-sclow'
+
 " Themes:
 Plug 'jacoborus/tender.vim'
 Plug 'nanotech/jellybeans.vim'
@@ -97,6 +100,10 @@ Plug 'tpope/vim-commentary'
 
 " Salesforce:
 Plug 'neowit/vim-force.com'
+
+" Terraform:
+Plug 'hashivim/vim-terraform'
+
 
 
 call plug#end()

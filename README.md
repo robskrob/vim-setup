@@ -8,9 +8,6 @@ This vim setup uses [vim-plug](https://github.com/junegunn/vim-plug)
 ln -s ~/your/directory/.vim ~/.vim
 ln -s ~/your/directory/.vimrc ~/.vimrc
 
-# For Terraform Syntax
-git clone https://github.com/hashivim/vim-terraform.git ~/.vim/pack/plugins/start/vim-terraform
-
 vim +PlugInstall +qall
 
 # set up coc for auto complete
