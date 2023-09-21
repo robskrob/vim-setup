@@ -63,3 +63,6 @@ function! ExecuteMacroOverVisualRange()
   echo "@".getcmdline()
   execute ":'<,'>normal @".nr2char(getchar())
 endfunction
+
+" Vim Surround Extensions
+let g:surround_{char2nr('o')} = "**\r**"
