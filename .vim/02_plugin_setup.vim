@@ -104,6 +104,9 @@ Plug 'neowit/vim-force.com'
 " Terraform:
 Plug 'hashivim/vim-terraform'
 
+" Sort:
+Plug 'inkarkat/vim-AdvancedSorters'
+
 
 
 call plug#end()
